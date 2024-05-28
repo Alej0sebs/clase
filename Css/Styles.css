@@ -1,0 +1,49 @@
+body{
+    background: white;
+}
+header{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
+nav{
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: 100%;
+    background: rgb(129, 37, 37);
+}
+nav ul{
+    position: relative;
+    margin: auto;
+    width: 50%;
+    text-align: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: auto;
+    width: 20%;
+    line-height: 50px;
+    list-style: none;
+    color: white;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+section{
+    position: relative;
+    padding: 5px;
+}
+footer{
+    background: rgb(129, 37, 37);
+    color: white;
+    text-align: center;
+}
+.parrafos{
+    color: blue;
+}
+.titulos{
+    font-size: 25;
+}

@@ -1,0 +1,46 @@
+.card-container {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto; /* Cambiado a 'auto' para permitir que el contenido determine la altura */
+  max-width: 100%; /* Asegura que no se desborde horizontalmente */
+}
+
+.card {
+  width: 80%; /* Cambiado a porcentaje */
+  max-width: 600px; /* Agregado un límite máximo */
+  height: auto; /* Cambiado a 'auto' para ajustarse al contenido */
+  margin: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.card-front {
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 20px; /* Agregado un relleno para separar el contenido del borde */
+  transform-origin: center;
+  color: aliceblue;
+}
+
+.card-front img {
+  max-width: 100%; /* Cambiado a porcentaje */
+  max-height: 100%; /* Cambiado a porcentaje */
+  border-radius: 10px;
+  object-fit: contain;
+}

@@ -1,0 +1,20 @@
+
+main {
+  width: 80%;
+  margin: 20px auto;
+  padding-top: 70px;
+  padding-right: 160px;
+  padding-left: 160px;
+  padding-bottom: 70px;
+}
+
+.info-contacto {
+  justify-content: center;
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  margin-left: 30%;
+  margin-right: 30%;
+}
